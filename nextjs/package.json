@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-full-hydration",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@crystallize/js-api-client": "^0.6.0",
+    "@crystallize/react-content-transformer": "^2.0.0",
+    "@crystallize/react-image": "^7.3.1",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-syntax-highlighter": "^15.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.29",
+    "@types/react": "18.0.8",
+    "@types/react-dom": "18.0.0",
+    "@types/react-syntax-highlighter": "^13.5.2",
+    "eslint": "8.14.0",
+    "eslint-config-next": "^12.1.6",
+    "typescript": "4.6.3"
+  }
+}
