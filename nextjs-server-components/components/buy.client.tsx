@@ -9,8 +9,7 @@ export default function Buy({
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    const id = requestIdleCallback(() => setReady(true));
-    return () => cancelIdleCallback(id);
+    setReady(true);
   }, []);
 
   function onClick() {

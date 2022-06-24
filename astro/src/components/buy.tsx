@@ -5,8 +5,7 @@ export function Buy({ variant }: { variant: CrystallizeProductVariant }) {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    const id = requestIdleCallback(() => setReady(true));
-    return () => cancelIdleCallback(id);
+    setReady(true);
   }, []);
 
   function onClick() {
