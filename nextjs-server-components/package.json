@@ -9,22 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@crystallize/content-transformer": "^9.2.0",
-    "@crystallize/js-api-client": "^0.6.0",
-    "@crystallize/react-content-transformer": "^2.0.0",
-    "@crystallize/react-image": "^7.3.1",
-    "@types/react-syntax-highlighter": "^13.5.2",
-    "next": "canary",
+    "@crystallize/content-transformer": "9.2.0",
+    "@crystallize/js-api-client": "0.6.0",
+    "@crystallize/react-content-transformer": "2.0.0",
+    "@crystallize/react-image": "7.3.1",
+    "@types/react-syntax-highlighter": "13.5.2",
+    "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-syntax-highlighter": "^15.5.0"
+    "react-syntax-highlighter": "15.5.0"
   },
   "devDependencies": {
     "@types/node": "17.0.29",
-    "@types/react": "18.0.8",
+    "@types/react": "18.0.16",
     "@types/react-dom": "18.0.0",
     "eslint": "8.14.0",
-    "eslint-config-next": "canary",
+    "eslint-config-next": "12.1.6",
     "typescript": "4.6.3"
   }
 }
