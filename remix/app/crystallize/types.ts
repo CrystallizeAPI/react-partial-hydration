@@ -11,7 +11,7 @@ export type CrystallizeImage = {
   }[];
 };
 
-export type CrystallizeRichText = NodeProps | [NodeProps];
+export type CrystallizeRichText = NodeProps | NodeProps[];
 
 export type CrystallizeProductVariant = {
   sku: string;

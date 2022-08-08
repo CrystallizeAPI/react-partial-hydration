@@ -83,7 +83,7 @@ export const Renderers = {
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   overrides?: Overrides | null;
-  json?: [NodeProps] | NodeProps;
+  json?: NodeProps[] | NodeProps;
 }
 
 export const NodeContent = (props: NodeProps) => {
@@ -161,7 +161,7 @@ export const ContentTransformer = ({ overrides = null, json }: Props) => {
   }
 
   if (Array.isArray(json)) {
-    const nodes: [NodeProps] = json;
+    const nodes: NodeProps[] = json;
     return (
       <Fragment>
         {nodes.map((j, i) => (

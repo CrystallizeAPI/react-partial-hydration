@@ -8,7 +8,7 @@ export interface NodeProps {
   kind?: string;
   type?: string;
   textContent?: string;
-  children?: [NodeProps];
+  children?: NodeProps[];
   metadata?: NodeMetadata;
   overrides?: Overrides | null;
 }
